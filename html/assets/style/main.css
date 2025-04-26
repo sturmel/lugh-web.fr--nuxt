@@ -1,0 +1,72 @@
+@import 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap';
+@import "tailwindcss";
+
+@theme {
+    --color-egyptian-blue-50: #dde7fd;
+    --color-egyptian-blue-100: #c1d2fb;
+    --color-egyptian-blue-200: #7ea2f7;
+    --color-egyptian-blue-300: #3f75f3;
+    --color-egyptian-blue-400: #0e4cdd;
+    --color-egyptian-blue-500: #0a369d;
+    --color-egyptian-blue-600: #082b7d;
+    --color-egyptian-blue-700: #062160;
+    --color-egyptian-blue-800: #04153e;
+    --color-egyptian-blue-900: #020c22;
+    --color-egyptian-blue-950: #01050e;
+
+    --color-emerald-50: #eafaf1;
+    --color-emerald-100: #d5f6e3;
+    --color-emerald-200: #acecc7;
+    --color-emerald-300: #7ee2a8;
+    --color-emerald-400: #54d98b;
+    --color-emerald-500: #2ecc71;
+    --color-emerald-600: #25a259;
+    --color-emerald-700: #1b7942;
+    --color-emerald-800: #13532e;
+    --color-emerald-900: #092a17;
+    --color-emerald-950: #05150b;
+
+    --color-french-gray-50: #f8f7f8;
+    --color-french-gray-100: #f3f2f3;
+    --color-french-gray-200: #e4e1e5;
+    --color-french-gray-300: #d7d4d9;
+    --color-french-gray-400: #c8c4ca;
+    --color-french-gray-500: #bbb5bd;
+    --color-french-gray-600: #978e9a;
+    --color-french-gray-700: #736a77;
+    --color-french-gray-800: #4c464e;
+    --color-french-gray-900: #272428;
+    --color-french-gray-950: #121113;
+
+    --color-tangerine-50: #fef3e6;
+    --color-tangerine-100: #fee8cd;
+    --color-tangerine-200: #fcd19c;
+    --color-tangerine-300: #fbba6a;
+    --color-tangerine-400: #f9a339;
+    --color-tangerine-500: #f58a07;
+    --color-tangerine-600: #c67006;
+    --color-tangerine-700: #955404;
+    --color-tangerine-800: #633803;
+    --color-tangerine-900: #321c01;
+    --color-tangerine-950: #190e01;
+
+    --color-brunswick-green-50: #e9f2ec;
+    --color-brunswick-green-100: #cfe2d6;
+    --color-brunswick-green-200: #a0c5ac;
+    --color-brunswick-green-300: #73ab86;
+    --color-brunswick-green-400: #4f8260;
+    --color-brunswick-green-500: #32533d;
+    --color-brunswick-green-600: #284331;
+    --color-brunswick-green-700: #1f3325;
+    --color-brunswick-green-800: #132017;
+    --color-brunswick-green-900: #0a100c;
+    --color-brunswick-green-950: #060a07;
+}
+
+@layer base {
+    html {
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      overflow-x: hidden;
+    }
+}  

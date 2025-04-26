@@ -1,0 +1,20 @@
+version: '3.9'
+
+networks:
+  lugh_web-network:
+
+services:
+  website--nuxt:
+    image: node:20.17-alpine
+    container_name: website--nuxt
+    command: [sh, -c, "if [ ! -f /webapp/.env ]; then cp /webapp/.env.docker /webapp/.env; fi; yarn install && yarn run dev"]
+    ports:
+      - "3000:3000"
+    working_dir: '/webapp'
+    tty: true
+    volumes:
+      - './html:/webapp/'
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+
