@@ -35,24 +35,25 @@ useHead({
     lang: 'fr'
   },
   meta: [
-    { name: "description", content: "Développement web et mobile sur mesure, audit de sécurité, automatisation de processus." },
+    { name: "description", content: "Développons ensemble votre présence en ligne, vos outils de productivité, sécurisons votre infrastructure et automatisons vos processus." },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
     { name: "robots", content: "index, follow" },
     { name: "googlebot", content: "index, follow" },
     { name: "author", content: "Lugh Web" },
     { name: "keywords", content: "développement web, développement mobile, audit de sécurité, automatisation de processus" },
     { property: "og:title", content: "Lugh Web - Développement web et mobile sur mesure" },
-    { property: "og:description", content: "Développement web et mobile sur mesure, audit de sécurité, automatisation de processus." },
+    { property: "og:description", content: "Développons ensemble votre présence en ligne, vos outils de productivité, sécurisons votre infrastructure et automatisons vos processus." },
     { property: "og:image", content: websiteUrl + "/images/lugh-web__link.jpg" },
     { property: "og:url", content: websiteUrl }, 
     { property: "og:type", content: "website" }, 
     { property: "twitter:card", content: "summary_large_image" },
     { property: "twitter:title", content: "Lugh Web - Développement web et mobile sur mesure" },
-    { property: "twitter:description", content: "Développement web et mobile sur mesure, audit de sécurité, automatisation de processus." },
+    { property: "twitter:description", content: "Développons ensemble votre présence en ligne, vos outils de productivité, sécurisons votre infrastructure et automatisons vos processus." },
     { property: "twitter:image", content: websiteUrl + "/images/lugh-web__link.jpg" }
   ],
   link: [{ rel: "canonical", href: websiteUrl }],
 });
+
 const scrollToSection = (targetId: string) => {
   const targetElement = document.getElementById(targetId);
   if (targetElement) {

@@ -74,7 +74,7 @@
                 </div>
                 <div class="technologies__container__card p-10">
                     <LazyCardTechnologie title="Vue.js"
-                        text="Un framework UI open-source de Google pour créer des applications magnifiques et performantes pour mobile (iOS et Android), à partir d'une seule base de code."
+                        text="Un framework JavaScript progressif pour créer des interfaces utilisateur modernes et réactives, alliant simplicité et performance pour les applications web."
                         imageUrl="/images/logo/VueJs.webp" hexColor="#0a369d" imageAlt="Logo VueJs" />
                 </div>
                 <div class="technologies__container__card p-10">

@@ -31,5 +31,5 @@
 </template>
 
 <script setup>
-// No script setup needed for these static meta tags
+
 </script>
